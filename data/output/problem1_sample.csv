@@ -1,0 +1,11 @@
+log_entry,log_level
+17/03/29 09:55:47 INFO storage.ShuffleBlockFetcherIterator: Getting 0 non-empty blocks out of 20 blocks,INFO
+17/03/29 09:55:35 INFO executor.Executor: Starting executor ID 7 on host mesos-slave-07,INFO
+17/03/29 10:03:16 INFO executor.Executor: Running task 12.0 in stage 1.0 (TID 13),INFO
+17/03/29 10:07:36 INFO slf4j.Slf4jLogger: Slf4jLogger started,INFO
+"17/03/29 10:09:13 INFO spark.MapOutputTrackerWorker: Don't have map outputs for shuffle 1, fetching them",INFO
+17/03/29 10:04:27 ERROR executor.CoarseGrainedExecutorBackend: Driver 10.10.34.11:48782 disassociated! Shutting down.,ERROR
+17/03/29 10:03:19 INFO executor.Executor: Finished task 19.0 in stage 1.0 (TID 20). 2653 bytes result sent to driver,INFO
+"17/03/29 10:04:11 INFO storage.MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 6.2 KB, free 10.7 KB)",INFO
+"17/03/29 10:02:19 INFO storage.MemoryStore: Block broadcast_6 stored as values in memory (estimated size 2.9 KB, free 4.5 KB)",INFO
+17/03/29 10:04:57 INFO executor.Executor: Running task 7.0 in stage 3.0 (TID 48),INFO
